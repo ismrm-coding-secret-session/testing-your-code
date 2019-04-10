@@ -17,3 +17,13 @@ cd testing-your-code
 pip install -e .
 py.test --cov testing_your_code/ --cov-report term-missing
 ```
+
+## About me
+
+[Mathieu Boudreau](https://github.com/mathieuboudreau) is an MRI physicist working as a Research Fellow for the
+Montreal Heart Institute and a software developer at NeuroPoly (Polytechnique
+de Montréal). He holds a PhD in Biomedical Engineering from McGill University
+('19), a MSc in Physics from the University of Western Ontario ('11), and a BSc
+in Physics from the Université de Moncton ('09). In his spare time, Mathieu
+enjoys making graduate students feel anxious about not having proper backups of
+their computers.
