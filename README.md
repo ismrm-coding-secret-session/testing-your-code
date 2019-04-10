@@ -17,3 +17,13 @@ To run the tests locally, do the following:
 * Open Octave (or MATLAB)\, and navigate to the `testing-your-code/` directory
 * Run `startup.m`
 * Run `res=moxunit_runtests('tests/src/math/add_Test.m','-with_coverage','-cover','src/','-cover_json_file','coverage.json')`
+
+## About me
+
+[Mathieu Boudreau](https://github.com/mathieuboudreau) is an MRI physicist working as a Research Fellow for the
+Montreal Heart Institute and a software developer at NeuroPoly (Polytechnique
+de Montréal). He holds a PhD in Biomedical Engineering from McGill University
+('19), a MSc in Physics from the University of Western Ontario ('11), and a BSc
+in Physics from the Université de Moncton ('09). In his spare time, Mathieu
+enjoys making graduate students feel anxious about not having proper backups of
+their computers.
