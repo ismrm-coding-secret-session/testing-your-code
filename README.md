@@ -11,7 +11,7 @@ For the open-source languages, continous integration (using [TravisCI](https://t
 
 ## Real-world open-source projects containing  testing suites
 
-These examples contain lots of examples of tests and setups that you can learn more from!
+These projects that I've worked on contain lots of examples of tests and setups that you can use to learn more about!
 
 Python
 * [AxonDeepSeg](https://github.com/neuropoly/axondeepseg)
