@@ -43,7 +43,7 @@ before_install:
 jobs:
   include:
   - stage: Test
-    script: if travis_wait 30 octave --no-gui --eval "startup;cd('/home/travis/build/ismrm-coding-secret-session/testing-your-code/tests/testing_your_code/math/');res=moxunit_runtests('-recursive','-with_coverage','-cover','/home/travis/build/ismrm-coding-secret-session/testing-your-code/testing_your_code','-cover_json_file','coverage.json');exit(~res);"; then curl --verbose -F json_file=@/home/travis/build/ismrm-coding-secret-session/testing-your-code/tests/testing_your_code/math/coverage.json https://coveralls.io/api/v1/jobs || travis_terminate 1; else travis_terminate 1; fi
+    script: if travis_wait 30 octave --no-gui --eval "startup;cd('/home/travis/build/ismrm-coding-secret-session/testing-your-code/tests/src/math/');res=moxunit_runtests('-recursive','-with_coverage','-cover','/home/travis/build/ismrm-coding-secret-session/testing-your-code/src','-cover_json_file','coverage.json');exit(~res);"; then curl --verbose -F json_file=@/home/travis/build/ismrm-coding-secret-session/testing-your-code/tests/src/math/coverage.json https://coveralls.io/api/v1/jobs || travis_terminate 1; else travis_terminate 1; fi
 
 after_failure:
   - sleep 10
