@@ -14,9 +14,13 @@ before_script:
   - "sh -e /etc/init.d/xvfb start"
   - sleep 3 # give xvfb some time to start
 # command to run tests
-script:
-  - echo "Launch general integrity test"
-  - pwd
-  - py.test . -v --cov testing_your_code/ --cov-report term-missing
-after_success:
-  - coveralls
+jobs:
+  include:
+  - stage: Test
+    script:
+    - echo "Launch general integrity test"
+    - pwd
+    - py.test . -v --cov testing_your_code/ --cov-report term-missing
+  - stage: Send coverage report
+    script:
+    - coveralls
