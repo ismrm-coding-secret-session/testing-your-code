@@ -35,9 +35,9 @@ class TestCore(object):
         # In practice, arrays (or vectors) should be defined using a module
         # like numpy, e.g. numpy.array([0, 1, 2, 3])
         a = [0, 1, 2, 3]
-        b = [5, 6, 7, 8]
+        b = [4, 5, 6, 7]
 
-        expected_value = [5, 7, 9, 11]
+        expected_value = [4, 6, 8, 10]
         actual_value = add(a,b)
 
         assert actual_value == expected_value
