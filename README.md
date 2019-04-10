@@ -1,6 +1,6 @@
 # Testing your code
 
-This repository contains simple working examples of how to test you code, in difference languages. Each example is hosted in a branch using the name of that language.
+This repository contains simple working examples of how to test your code, in difference languages. Each example is hosted in a branch using the name of that language.
 
 Branches:
 * [python](https://github.com/ismrm-coding-secret-session/testing-your-code/tree/python)
