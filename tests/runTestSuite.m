@@ -9,7 +9,7 @@ function [testsResults] = runTestSuite()
     suite = TestSuite.fromFolder(pwd, 'IncludingSubfolders', true);
     
     runner = TestRunner.withTextOutput;
-    runner.addPlugin(CodeCoveragePlugin.forFolder(fullfile('testing_your_code', 'math')))
+    runner.addPlugin(CodeCoveragePlugin.forFolder(fullfile('src', 'math')))
     testsResults = runner.run(suite)
 end
 
