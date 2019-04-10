@@ -7,11 +7,11 @@ Branches:
 * [matlab](https://github.com/ismrm-coding-secret-session/testing-your-code/tree/matlab)
 * [octave](https://github.com/ismrm-coding-secret-session/testing-your-code/tree/octave)
 
-For the open-source languages, continous integration (using [TravisCI](https://travis-ci.com)) and code coverage analysis (using [Coveralls.io](https://coveralls.io)) are also implemented. Badges displaying the build status (if all the tests pass) and coverage (% of code covered by tests) are displayed at the top of the readme. Click them to get more in-depth details about these features!
+For the open-source languages, continous integration (using [TravisCI](https://travis-ci.com)) and code coverage analysis (using [Coveralls.io](https://coveralls.io)) are also implemented. Badges displaying the build status (green if all the tests pass, red if they don't) and coverage (% of code covered by tests) are displayed at the top of the readme. Click them to get more in-depth details about these features!
 
-## Real-world open-source projects containing  testing suites
+## Real-world open-source projects containing testing suites
 
-These projects that I've worked on contain lots of examples of tests and setups that you can use to learn more about!
+These are projects that I've worked on containing real tests and setups that you can use to learn more about!
 
 Python
 * [AxonDeepSeg](https://github.com/neuropoly/axondeepseg)
