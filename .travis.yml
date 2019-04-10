@@ -17,6 +17,6 @@ before_script:
 script:
   - echo "Launch general integrity test"
   - pwd
-  - py.test . -v --cov ./electropy/ --cov-report term-missing
+  - py.test . -v --cov ./testing_your_code/ --cov-report term-missing
 after_success:
   - coveralls
