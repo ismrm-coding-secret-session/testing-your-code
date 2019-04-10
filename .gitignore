@@ -15,3 +15,5 @@ __pycache__/
 # Release-related files
 build/
 dist/
+
+*~
